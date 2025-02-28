@@ -1,0 +1,8 @@
+{
+  "name": "mint-forge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PrinceOdein/mint-forge.git",
+  "author": "PrinceOdein <odeinanyanwu@gmail.com>",
+  "license": "MIT"
+}
