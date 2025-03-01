@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/PrinceOdein/mint-forge.git",
   "author": "PrinceOdein <odeinanyanwu@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.22.19"
+  }
 }
