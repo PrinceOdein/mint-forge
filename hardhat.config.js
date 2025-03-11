@@ -13,7 +13,7 @@ module.exports = {
   networks: {
     sepolia: {
       url: `https://polygon-amoy.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
-      accounts: [SEPOLIA_PRIVATE_KEY]
+      accounts: [PRIVATE_KEY]
     }
   }
 };
