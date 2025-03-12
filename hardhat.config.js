@@ -11,8 +11,8 @@ const PRIVATE_KEY = vars.get("PRIVATE_KEY");
 module.exports = {
   solidity: "0.8.20",
   networks: {
-    sepolia: {
-      url: `https://polygon-amoy.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+    amoy: {
+      url: `https://polygon-amoy.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`,
       accounts: [PRIVATE_KEY]
     }
   }
